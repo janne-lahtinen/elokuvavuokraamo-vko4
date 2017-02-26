@@ -3,6 +3,11 @@
 {% block content %}
 <h2>Vuokraukset</h2>
 <!-- Tähän tulee listaus vuokrauksista -->
+<ul>
+	{% for p in vuokraukset %}
+        <li>Elokuva: {{ p['eNimi'] }} / Asiakas: {{ p['jNimi'] }} / Vuokrattu: {{ p['vuokrausPVM'] }} / Palautus: {{ p['palautusPVM'] }} / Maksettu: {{ p['maksettu'] }} €</li>
+	{% endfor %}
+</ul>
 
 <p><a href="{{ url_for('vuokraus') }}">Syötä uusi vuokraus</a></p>
 
