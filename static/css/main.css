@@ -9,3 +9,16 @@ ul {
 a {
 	text-decoration: none;
 }
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+
+    font-size: 0.8em;
+    padding: 0.3em 0.5em;
+    margin-left: 0.3em;
+}

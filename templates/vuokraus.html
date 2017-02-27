@@ -3,6 +3,35 @@
 {% block content %}
 <h2>Uusi vuokraus</h2>
 <!-- Tähän tulee lomake vuokraamista varten -->
-
-<p><a href="{{ url_for('index') }}">Peruuta</a></p>
+<form action="video.py" method="post">
+<p>
+<label for="vNimi">Vuokraajan nimi</label>
+<select id="vNimi" name="vNimi">
+	{% for p in vuokraajat %}
+		<option value="{{ p['jasenID'] }}">
+		{{ p['nimi'] }} / ID: {{ p['jasenID'] }}
+		</option>
+	{% endfor %}
+</select>
+</p>
+<p>
+<label for="eNimi">Elokuvan nimi</label>
+<select id="eNimi" name="eNimi">
+	{% for e in elokuvat %}
+		<option value="{{ e['elokuvaID'] }}">
+		{{ e['nimi'] }} / ID: {{ e['elokuvaID'] }}
+		</option>
+	{% endfor %}
+</select>
+</p>
+<p>
+<label>Vuokrauspäivä <input type="text" name="vuokrausPVM"></label>
+</p>
+<p>
+<label>Palautuspäivä <input type="text" name="palautusPVM"></label>
+</p>
+<p>
+<input type="submit" value="Tallenna" /> <a href="{{ url_for('index') }}" class="button">Peruuta</a>
+</form>
+</p>
 {% endblock %}
