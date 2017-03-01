@@ -1,0 +1,505 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:05:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:05:14] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:05:56] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:05:56] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:06:12] "POST /vuokraus HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:06:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:06:12] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:16:44] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:16:44] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:28:52] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:28:52] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Maksetun summan tarkistus ei onnistu!
+DEBUG:root:<class 'ValueError'>
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:29:07] "POST /vuokraus HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:29:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:29:07] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:29:25] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:29:25] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:30:55] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:30:55] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Maksetun summan tarkistus ei onnistu!
+DEBUG:root:<class 'ValueError'>
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:31:09] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:31:10] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Maksetun summan tarkistus ei onnistu!
+DEBUG:root:<class 'ValueError'>
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:31:53] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:31:54] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Maksetun summan tarkistus ei onnistu!
+DEBUG:root:<class 'ValueError'>
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:32:05] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:32:05] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Maksetun summan tarkistus ei onnistu!
+DEBUG:root:<class 'ValueError'>
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:33:24] "POST /vuokraus HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:33:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:33:24] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:36:00] "GET /vuokraus HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:36:00] "GET /vuokraus?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:36:00] "GET /vuokraus?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:36:00] "GET /vuokraus?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:36:00] "GET /vuokraus?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:36:01] "GET /vuokraus?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:36:01] "GET /vuokraus?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:36:52] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:36:52] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Maksetun summan tarkistus ei onnistu!
+DEBUG:root:<class 'ValueError'>
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:37:02] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:37:02] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Maksetun summan tarkistus ei onnistu!
+DEBUG:root:<class 'ValueError'>
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:41:33] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:41:33] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Maksetun summan tarkistus ei onnistu!
+DEBUG:root:<class 'ValueError'>
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:42:18] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:42:18] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:42:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:42:21] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:42:24] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:42:24] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:42:58] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:42:58] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Maksetun summan tarkistus ei onnistu!
+DEBUG:root:<class 'ValueError'>
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:UNIQUE constraint failed: Vuokraus.JasenID, Vuokraus.ElokuvaID, Vuokraus.VuokrausPVM
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:43:34] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:43:34] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:43:49] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:43:50] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:53:15] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:53:15] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:UNIQUE constraint failed: Vuokraus.JasenID, Vuokraus.ElokuvaID, Vuokraus.VuokrausPVM
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:53:28] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:53:28] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:UNIQUE constraint failed: Vuokraus.JasenID, Vuokraus.ElokuvaID, Vuokraus.VuokrausPVM
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:53:44] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:53:44] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Maksetun summan tarkistus ei onnistu!
+DEBUG:root:<class 'ValueError'>
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:UNIQUE constraint failed: Vuokraus.JasenID, Vuokraus.ElokuvaID, Vuokraus.VuokrausPVM
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:54:26] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 09:54:27] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Maksetun summan tarkistus ei onnistu!
+DEBUG:root:<class 'ValueError'>
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:UNIQUE constraint failed: Vuokraus.JasenID, Vuokraus.ElokuvaID, Vuokraus.VuokrausPVM
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:02:29] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:02:29] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:02:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:02:32] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:02:33] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:02:34] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:02:45] "POST /vuokraus HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:02:45] "GET /vuokraus?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:02:46] "GET /vuokraus?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:02:46] "GET /vuokraus?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:02:46] "GET /vuokraus?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:02:46] "GET /vuokraus?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:05:31] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:05:32] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:05:47] "POST /vuokraus HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:05:47] "GET /vuokraus?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:05:47] "GET /vuokraus?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:05:47] "GET /vuokraus?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:05:47] "GET /vuokraus?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:05:48] "GET /vuokraus?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:06:54] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:06:54] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:07:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:07:01] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:07:02] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:07:03] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:07:21] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:07:22] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:16:28] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:16:28] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:16:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:16:31] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:16:33] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:16:33] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:16:44] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:16:45] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:19:05] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:19:06] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:19:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:19:08] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:19:10] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:19:10] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:19:20] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:19:20] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:20:22] "POST /vuokraus HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:20:23] "GET /vuokraus?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:20:23] "GET /vuokraus?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:20:23] "GET /vuokraus?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:20:23] "GET /vuokraus?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:20:23] "GET /vuokraus?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:20:28] "POST /vuokraus HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:20:29] "GET /vuokraus?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:20:29] "GET /vuokraus?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:20:29] "GET /vuokraus?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:20:29] "GET /vuokraus?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:20:29] "GET /vuokraus?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:20:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:20:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:20:34] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:20:36] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:20:37] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:25:40] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:25:40] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:26:19] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:26:19] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:26:33] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:26:33] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:28:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:28:54] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:28:55] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:28:56] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:29:08] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:29:08] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:34:06] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:34:06] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:34:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:34:13] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:34:15] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:34:15] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:34:27] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:34:28] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:35:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:35:41] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:35:43] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:35:43] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:35:55] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:35:55] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:36:35] "POST /vuokraus HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:36:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:36:36] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:37:19] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:37:20] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:UNIQUE constraint failed: Vuokraus.JasenID, Vuokraus.ElokuvaID, Vuokraus.VuokrausPVM
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:37:33] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:37:33] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:UNIQUE constraint failed: Vuokraus.JasenID, Vuokraus.ElokuvaID, Vuokraus.VuokrausPVM
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:37:37] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:37:37] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:UNIQUE constraint failed: Vuokraus.JasenID, Vuokraus.ElokuvaID, Vuokraus.VuokrausPVM
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:37:47] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:37:48] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:UNIQUE constraint failed: Vuokraus.JasenID, Vuokraus.ElokuvaID, Vuokraus.VuokrausPVM
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:38:10] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:38:10] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:38:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:38:16] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:38:43] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:38:43] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:UNIQUE constraint failed: Vuokraus.JasenID, Vuokraus.ElokuvaID, Vuokraus.VuokrausPVM
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:38:55] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:38:55] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:UNIQUE constraint failed: Vuokraus.JasenID, Vuokraus.ElokuvaID, Vuokraus.VuokrausPVM
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:39:16] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:39:16] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:UNIQUE constraint failed: Vuokraus.JasenID, Vuokraus.ElokuvaID, Vuokraus.VuokrausPVM
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:41:08] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:41:08] "GET /static/css/main.css HTTP/1.1" 304 -
