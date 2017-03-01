@@ -119,18 +119,19 @@ def vuokraus():
 		try:
 			 datetime.datetime.strptime(vuokraus, '%Y-%m-%d')
 		except ValueError:
-			herja = u"Päiväyksiä syötetty väärässä muodossa, pitäisi olla, vuosi-kuukausi-päivä eli vvvv-kk-pp"
+			herja = u"Vuokrauspäivä syötetty väärässä muodossa, pitäisi olla, vuosi-kuukausi-päivä eli vvvv-kk-pp"
 			return render_template("vuokraus.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, sovellus=sovellus)
 		try:
 			 datetime.datetime.strptime(palautus, '%Y-%m-%d')
 		except ValueError:
-			herja = u"Päiväyksiä syötetty väärässä muodossa, pitäisi olla, vuosi-kuukausi-päivä eli vvvv-kk-pp"
+			herja = u"Palautuspäivä syötetty väärässä muodossa, pitäisi olla, vuosi-kuukausi-päivä eli vvvv-kk-pp"
 			return render_template("vuokraus.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, sovellus=sovellus)
 
 		# Syötettyjen päivämäärien tarkistus, palautus pitää olla suurempi
 		try:
 			if palautus <= vuokraus:
 				herja = u"Palautuspäivämäärän pitää olla vuokrauspäivää myöhemmin!"
+				return render_template("vuokraus.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, sovellus=sovellus)
 		except:
 			logging.debug( "Palautuspäivän tarkistus ei onnistunut!" )
 			logging.debug( sys.exc_info()[0] )

@@ -503,3 +503,93 @@ DEBUG:root:<class 'sqlite3.IntegrityError'>
 DEBUG:root:UNIQUE constraint failed: Vuokraus.JasenID, Vuokraus.ElokuvaID, Vuokraus.VuokrausPVM
 INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:41:08] "POST /vuokraus HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:41:08] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:45:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:45:27] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:45:50] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:45:50] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:46:00] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:46:00] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:46:10] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:46:10] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:UNIQUE constraint failed: Vuokraus.JasenID, Vuokraus.ElokuvaID, Vuokraus.VuokrausPVM
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:46:23] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:46:23] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:46:45] "POST /vuokraus HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:46:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:46:45] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:48:03] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:48:03] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:48:22] "POST /vuokraus HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:48:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:48:22] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:49:10] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:49:10] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:49:40] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:49:40] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:49:55] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:49:56] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:50:00] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:50:01] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:50:29] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:50:29] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:52:02] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:52:02] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:52:20] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:52:21] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:54:26] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:54:27] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:54:56] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:54:56] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:55:08] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:55:09] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:55:51] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:55:51] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:UNIQUE constraint failed: Vuokraus.JasenID, Vuokraus.ElokuvaID, Vuokraus.VuokrausPVM
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:56:20] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:56:20] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:56:36] "POST /vuokraus HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:56:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:56:36] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:57:12] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:57:12] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:57:31] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:57:31] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:57:54] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:57:54] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:58:51] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:58:51] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:CHECK constraint failed: Vuokraus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:58:58] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:58:58] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:59:00] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 10:59:00] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 11:00:10] "POST /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2017 11:00:11] "GET /static/css/main.css HTTP/1.1" 304 -
