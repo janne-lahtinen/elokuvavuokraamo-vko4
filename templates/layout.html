@@ -6,10 +6,24 @@
 	<title>Elokuvavuokraamo-sovellus, VKO 4</title>
 </head>
 <body>
+<header>
+	<nav>
+		<ul>
+			<li><a href="{{ url_for('index') }}">Vuokrauslistaus</a></li>
+			<li><a href="{{ url_for('vuokraus') }}">Vuorauksen lisäys</a></li>
+			<li><a href="{{ url_for('elokuvat') }}">Elokuvalistaus</a></li>
+		</ul>
+	</nav>
+</header>
+<div id="container">
 <h1>Elokuvavuokraamo</h1>
 
 	{% block content %}
 	{% endblock %}
 
+</div>
+<footer>
+	
+</footer>
 </body>
 </html>

@@ -259,11 +259,13 @@ def muokkaa():
 			maksettuINT = int(maksettu)
 			if maksettuINT <= 0:
 				herja = u"Syötit liian pieniä arvoja, yritä uudestaan."
+				return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
 		except:
 			herja = u"Syötit vääriä arvoja, yritä uudestaan."
 			logging.debug( "Maksetun summan tarkistus ei onnistu!" )
 			logging.debug( sys.exc_info()[0] )
 			logging.debug( sys.exc_info()[1] )
+			return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
 
 		# Yritetään päivittää kenttien tietoja		
 		try:
@@ -313,6 +315,35 @@ def muokkaa():
 			logging.debug( sys.exc_info()[1] )
 
 	return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
+
+@app.route("/elokuvat", methods=['POST','GET'])
+def elokuvat():
+	# os.path.abspath muuntaa suhteellisen polun absoluuttiseksi, joka taasen kelpaa sqlitelle
+	con = sqlite3.connect(os.path.abspath('data/video'))
+
+	# voidaan käsitellä palautettuja tietueita niiden kenttien nimillä
+	con.row_factory = sqlite3.Row
+
+	cur = con.cursor()
+
+	# Kysely elokuvista tietokannassa
+	try:
+		cur.execute("""
+		SELECT E.Nimi, E.Julkaisuvuosi, E.Vuokrahinta, E.Arvio, L.Tyypinnimi
+		FROM Elokuva AS E, Lajityyppi AS L
+		WHERE E.LajityyppiID = L.LajityyppiID
+		""")
+	except: 
+	   # Virheilmoitus lokiin, jos kysely ei onnistu
+	   logging.debug( sys.exc_info()[0] )
+	   logging.debug( sys.exc_info()[1] )
+
+	# Muodostetaan lista kyselystä saadulla datalla
+	elokuvat = []
+	for row in cur.fetchall():
+		elokuvat.append( dict(nimi=row[0], vuosi=row[1], hinta=row[2], arvio=row[3], genre=row[4]) )
+
+	return render_template("elokuvat.html", elokuvat=elokuvat)
 
 if __name__ == "__main__":
 	app.run(debug=True)

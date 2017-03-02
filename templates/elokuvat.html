@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h2>Elokuvat</h2>
+{# Tähän tulee taulukko elokuvista #}
+<table id="elokuvataulukko">
+	<tr class="headerrow">
+		<td>Elokuvan nimi</td>
+		<td>Julkaisuvuosi</td>
+		<td>Vuokrahinta</td>
+		<td>Arvio</td>
+		<td>Lajityyppi</td>
+	</tr>
+{% for e in elokuvat %}
+	<tr class="bodyrow">
+		<td>{{ e['nimi'] }}</td>
+		<td class="right">{{ e['vuosi'] }}</td>
+		<td class="right">{{ e['hinta'] }}</td>
+		<td class="right">{{ e['arvio'] }}</td>
+		<td>{{ e['genre'] }}</td>
+	</tr> 
+{% endfor %}
+</table>
+{% endblock %}
