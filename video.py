@@ -96,8 +96,7 @@ def vuokraus():
 	# Virheilmoituksen alustaminen
 	herja = ""
 
-	# Lomakkeen käsittely -----------------------------------------------    
-	# jos on valittu vuokraa-painike
+	# Lomakkeen käsittely, jos on valittu vuokraa-painike -----------------------------------------------
 	if request.form.get("vuokraa", None):
 		insert_sql = """
 			INSERT INTO Vuokraus (JasenID, ElokuvaID, VuokrausPVM, PalautusPVM, Maksettu)
@@ -218,8 +217,7 @@ def muokkaa():
 	# Linkin mukana tuotu muuttuja, oletusarvo tyhjä string
 	INmaksettu = request.values.get('maksettu', '')
 
-	# Lomakkeen käsittely -----------------------------------------------    
-	# jos on valittu muokkaa-painike
+	# Lomakkeen käsittely, jos on valittu muokkaa-painike -----------------------------------------------
 	if request.form.get("muokkaa", None):
 		update_sql = """
 			UPDATE Vuokraus SET JasenID = :jasenid, ElokuvaID = :elokuvaid, VuokrausPVM = :vuokrauspvm, PalautusPVM = :palautuspvm, Maksettu = :maksettu
@@ -279,6 +277,40 @@ def muokkaa():
 			logging.debug( sys.exc_info()[1] )
 
 		return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
+
+	# Lomakkeen käsittely, jos on valittu poista-painike -----------------------------------------------
+	if request.form.get("poista", None):
+		delete_sql = """
+			DELETE FROM Vuokraus
+			WHERE Vuokraus.JasenID = :INjasen 
+				AND Vuokraus.ElokuvaID = :INelokuva 
+				AND Vuokraus.VuokrausPVM = :INvuokraus
+			"""
+		# Linkin mukana tuotu muuttuja, oletusarvo tyhjä string
+		INjasenID = int(request.values.get('jasenID', ''))
+
+		# Linkin mukana tuotu muuttuja, oletusarvo tyhjä string
+		INelokuvaID = int(request.values.get('elokuvaID', ''))
+
+		# Linkin mukana tuotu muuttuja, oletusarvo tyhjä string
+		INvuokrausPVM = request.values.get('vuokrausPVM', '')
+
+		# Linkin mukana tuotu muuttuja, oletusarvo tyhjä string
+		INpalautusPVM = request.values.get('palautusPVM', '')  
+
+		# Linkin mukana tuotu muuttuja, oletusarvo tyhjä string
+		INmaksettu = request.values.get('maksettu', '')
+
+		# Yritetään poistaa tietue		
+		try:
+			cur.execute(delete_sql, {"INjasen":INjasenID, "INelokuva":INelokuvaID, "INvuokraus":INvuokrausPVM})
+			con.commit() # tehdään commit vaikka osa lisäyksistä epäonnistuisikin
+			return redirect(url_for('index'))
+		except:
+			herja = "Poistaminen ei onnistu!"
+			logging.debug( "Poistaminen ei onnistu!" )
+			logging.debug( sys.exc_info()[0] )
+			logging.debug( sys.exc_info()[1] )
 
 	return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
 
