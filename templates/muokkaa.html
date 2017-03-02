@@ -2,6 +2,8 @@
 
 {% block content %}
 <h2>Muokkaa vuokrausta</h2>
+<!-- Paikka virheilmoitukselle -->
+<span>{{ herja }}</span>
 <!-- Tähän tulee lomake muokkaamista varten -->
 <form action="" method="post">
 <p>
@@ -37,16 +39,16 @@
 </select>
 </p>
 <p>
-<label>Vuokrauspäivä (yyyy-mm-dd) <input type="text" name="vuokrausPVM" value="{{ vuokrausPVM }}"></label>
+<label>Vuokrauspäivä (yyyy-mm-dd) <input type="text" name="vuokrausPVM" value="{{ INvuokrausPVM }}"></label>
 </p>
 <p>
-<label>Palautuspäivä (yyyy-mm-dd) <input type="text" name="palautusPVM" value="{{ palautusPVM }}"></label>
+<label>Palautuspäivä (yyyy-mm-dd) <input type="text" name="palautusPVM" value="{{ INpalautusPVM }}"></label>
 </p>
 <p>
-<label>Maksettu <input type="text" name="maksettu" value="{{ maksettu }}"></label>
+<label>Maksettu <input type="text" name="maksettu" value="{{ INmaksettu }}"></label>
 </p>
 <p>
-<input type="submit" name="vuokraa" value="Vuokraa" /> <a href="{{ url_for('index') }}" class="button">Peruuta</a>
+<input type="submit" name="muokkaa" value="Muokkaa" /> <a href="{{ url_for('index') }}" class="button">Peruuta</a>
 </form>
 </p>
 {% endblock %}

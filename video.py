@@ -192,7 +192,8 @@ def muokkaa():
 		""")
 	except: 
 	   # Virheilmoitus lokiin, jos kysely ei onnistu
-	   logging.debug(sys.exc_info()[0])
+	   logging.debug( sys.exc_info()[0] )
+	   logging.debug( sys.exc_info()[1] )
 
 	# Muodostetaan lista kyselystä saadulla datalla
 	elokuvat = []
@@ -209,15 +210,77 @@ def muokkaa():
 	INelokuvaID = int(request.values.get('elokuvaID', ''))
 
 	# Linkin mukana tuotu muuttuja, oletusarvo tyhjä string
-	vuokrausPVM = request.values.get('vuokrausPVM', '')  
+	INvuokrausPVM = request.values.get('vuokrausPVM', '')
 
 	# Linkin mukana tuotu muuttuja, oletusarvo tyhjä string
-	palautusPVM = request.values.get('palautusPVM', '')  
+	INpalautusPVM = request.values.get('palautusPVM', '')  
 
 	# Linkin mukana tuotu muuttuja, oletusarvo tyhjä string
-	maksettu = request.values.get('maksettu', '')  
+	INmaksettu = request.values.get('maksettu', '')
 
-	return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, INjasenID=INjasenID, INelokuvaID=INelokuvaID, vuokrausPVM=vuokrausPVM, palautusPVM=palautusPVM, maksettu=maksettu)
+	# Lomakkeen käsittely -----------------------------------------------    
+	# jos on valittu muokkaa-painike
+	if request.form.get("muokkaa", None):
+		update_sql = """
+			UPDATE Vuokraus SET JasenID = :jasenid, ElokuvaID = :elokuvaid, VuokrausPVM = :vuokrauspvm, PalautusPVM = :palautuspvm, Maksettu = :maksettu
+			WHERE Vuokraus.JasenID = :INjasen 
+				AND Vuokraus.ElokuvaID = :INelokuva 
+				AND Vuokraus.VuokrausPVM = :INvuokraus
+			"""
+		# Haetaan annetut arvot lomakkeelta
+		elokuva = request.form.get("eNimi")
+		jasen = request.form.get("vNimi", -1) # Jos jasenta ei ole annettu käytetään -1, joka kaataa executen
+		vuokraus = request.form.get("vuokrausPVM")
+		palautus = request.form.get("palautusPVM")
+		maksettu = request.form.get("maksettu")
+
+		# Syötettyjen päivämäärien muodon tarkistus
+		try:
+			 datetime.datetime.strptime(vuokraus, '%Y-%m-%d')
+		except ValueError:
+			herja = u"Vuokrauspäivä syötetty väärässä muodossa, pitäisi olla, vuosi-kuukausi-päivä eli vvvv-kk-pp"
+			return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
+		try:
+			 datetime.datetime.strptime(palautus, '%Y-%m-%d')
+		except ValueError:
+			herja = u"Palautuspäivä syötetty väärässä muodossa, pitäisi olla, vuosi-kuukausi-päivä eli vvvv-kk-pp"
+			return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
+
+		# Syötettyjen päivämäärien tarkistus, palautus pitää olla suurempi
+		try:
+			if palautus <= vuokraus:
+				herja = u"Palautuspäivämäärän pitää olla vuokrauspäivää myöhemmin!"
+				return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
+		except:
+			logging.debug( "Palautuspäivän tarkistus ei onnistunut!" )
+			logging.debug( sys.exc_info()[0] )
+			logging.debug( sys.exc_info()[1] )
+
+		# Syötetyn maksun tarkistukset, jos nolla tai vähemmän --> try, jos ei INT, except
+		try:
+			maksettuINT = int(maksettu)
+			if maksettuINT <= 0:
+				herja = u"Syötit liian pieniä arvoja, yritä uudestaan."
+		except:
+			herja = u"Syötit vääriä arvoja, yritä uudestaan."
+			logging.debug( "Maksetun summan tarkistus ei onnistu!" )
+			logging.debug( sys.exc_info()[0] )
+			logging.debug( sys.exc_info()[1] )
+
+		# Yritetään päivittää kenttien tietoja		
+		try:
+			cur.execute(update_sql, {"jasenid":jasen, "elokuvaid":elokuva, "vuokrauspvm":vuokraus, "palautuspvm":palautus, "maksettu":maksettu, "INjasen":INjasenID, "INelokuva":INelokuvaID, "INvuokraus":INvuokrausPVM})
+			con.commit() # tehdään commit vaikka osa lisäyksistä epäonnistuisikin
+			return redirect(url_for('index'))
+		except:
+			herja = "Muokkaus ei onnistu!"
+			logging.debug( "Muokkaus ei onnistu!" )
+			logging.debug( sys.exc_info()[0] )
+			logging.debug( sys.exc_info()[1] )
+
+		return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
+
+	return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
 
 if __name__ == "__main__":
 	app.run(debug=True)

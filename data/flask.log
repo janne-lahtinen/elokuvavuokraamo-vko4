@@ -1286,3 +1286,451 @@ INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 08:45:17] "GET /muokkaa?jasenID=5&eloku
 INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 08:45:17] "GET /static/css/main.css HTTP/1.1" 304 -
 INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 08:45:30] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 08:45:30] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 08:49:20] "GET /muokkaa?jasenID=4&elokuvaID=5&vuokrausPVM=2017-02-28&palautusPVM=2017-02-29&maksettu=sdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 08:49:20] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:07:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:07:16] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:07:19] "GET /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:07:19] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:21:56] "GET /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:21:56] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:40:52] "GET /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:40:52] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:unrecognized token: ":"
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:41:06] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:41:06] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:41:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:41:39] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:41:43] "GET /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:41:44] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:41:58] "GET /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:41:58] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:44:27] "GET /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:44:27] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:46:56] "GET /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:46:56] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:unrecognized token: ":"
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:48:30] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 09:48:30] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:unrecognized token: ":"
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:01:01] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:01:01] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ")": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:02:33] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:02:33] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ")": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:02:39] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:02:39] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ")": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:04:04] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:04:05] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ")": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:04:11] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:04:11] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ")": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:06:09] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:06:09] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ")": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:06:18] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:06:19] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:07:15] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:07:15] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:07:21] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:07:21] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:08:54] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:08:54] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:09:02] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:09:02] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:12:06] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:12:06] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Vuokraus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:12:12] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:12:12] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Muokkaus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:13:37] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:13:38] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Muokkaus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:13:44] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:13:44] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Muokkaus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:24:52] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:24:52] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Muokkaus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:24:58] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:24:58] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Muokkaus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:27:48] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:27:48] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Muokkaus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:30:28] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:30:29] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:30:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:30:35] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:30:39] "GET /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:30:39] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Muokkaus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:30:48] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:30:49] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Muokkaus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:31:21] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:31:21] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:34:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:34:18] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:34:21] "GET /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:34:22] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Muokkaus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:34:29] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:34:29] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Muokkaus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:39:38] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:39:38] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:39:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:39:41] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:39:43] "GET /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:39:43] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Muokkaus ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:39:49] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 10:39:49] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 11:59:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 11:59:40] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 11:59:41] "GET /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 11:59:42] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Muokkaus ei onnistu!
+DEBUG:root:<class 'sqlite3.ProgrammingError'>
+DEBUG:root:You did not supply a value for binding 8.
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 11:59:48] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 11:59:49] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:02:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:02:21] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:02:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:02:30] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:33:51] "GET /muokkaa?jasenID=2&elokuvaID=1&vuokrausPVM=2013-06-13&palautusPVM=2013-06-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:33:51] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:33:56] "GET /muokkaa?jasenID=2&elokuvaID=1&vuokrausPVM=2013-06-13&palautusPVM=2013-06-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:33:57] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Muokkaus ei onnistu!
+DEBUG:root:<class 'sqlite3.ProgrammingError'>
+DEBUG:root:You did not supply a value for binding 8.
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:34:02] "POST /muokkaa?jasenID=2&elokuvaID=1&vuokrausPVM=2013-06-13&palautusPVM=2013-06-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:34:02] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Muokkaus ei onnistu!
+DEBUG:root:<class 'sqlite3.ProgrammingError'>
+DEBUG:root:You did not supply a value for binding 8.
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:34:19] "POST /muokkaa?jasenID=2&elokuvaID=1&vuokrausPVM=2013-06-13&palautusPVM=2013-06-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:34:19] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:34:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:34:22] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:34:24] "GET /muokkaa?jasenID=2&elokuvaID=1&vuokrausPVM=2013-06-13&palautusPVM=2013-06-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:34:24] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Muokkaus ei onnistu!
+DEBUG:root:<class 'sqlite3.ProgrammingError'>
+DEBUG:root:You did not supply a value for binding 8.
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:34:33] "POST /muokkaa?jasenID=2&elokuvaID=1&vuokrausPVM=2013-06-13&palautusPVM=2013-06-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:34:33] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:46:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:46:39] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:46:44] "GET /muokkaa?jasenID=4&elokuvaID=5&vuokrausPVM=2017-02-28&palautusPVM=2017-02-29&maksettu=sdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:46:44] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:48:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:48:40] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:48:45] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:48:45] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:49:03] "POST /vuokraus HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:49:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 12:49:03] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:10:04] "GET /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:10:05] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:29:04] "GET /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:29:04] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Muokkaus ei onnistu!
+DEBUG:root:<class 'sqlite3.ProgrammingError'>
+DEBUG:root:You did not supply a value for binding 8.
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:29:10] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:29:10] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:37:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:37:26] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:37:30] "GET /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:37:30] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Muokkaus ei onnistu!
+DEBUG:root:<class 'sqlite3.ProgrammingError'>
+DEBUG:root:You did not supply a value for binding 8.
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:37:40] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:37:40] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:39:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:39:53] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:39:56] "GET /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:39:56] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:40:04] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:40:04] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:40:59] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:40:59] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:56:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:56:48] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:56:50] "GET /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:56:50] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:56:56] "POST /muokkaa?jasenID=5&elokuvaID=8&vuokrausPVM=2013-02-13&palautusPVM=2013-02-14&maksettu=5 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:56:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:56:57] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:57:55] "GET /muokkaa?jasenID=4&elokuvaID=5&vuokrausPVM=2017-02-28&palautusPVM=2017-02-29&maksettu=sdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:57:56] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:58:04] "POST /muokkaa?jasenID=4&elokuvaID=5&vuokrausPVM=2017-02-28&palautusPVM=2017-02-29&maksettu=sdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:58:05] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:58:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:58:48] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:59:00] "GET /muokkaa?jasenID=2&elokuvaID=1&vuokrausPVM=2013-05-13&palautusPVM=2013-05-14&maksettu=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:59:00] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:59:12] "POST /muokkaa?jasenID=2&elokuvaID=1&vuokrausPVM=2013-05-13&palautusPVM=2013-05-14&maksettu=5 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:59:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:59:12] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:59:54] "GET /muokkaa?jasenID=4&elokuvaID=5&vuokrausPVM=2017-02-28&palautusPVM=2017-02-29&maksettu=sdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 14:59:54] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 15:00:11] "POST /muokkaa?jasenID=4&elokuvaID=5&vuokrausPVM=2017-02-28&palautusPVM=2017-02-29&maksettu=sdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 15:00:11] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 15:00:40] "POST /muokkaa?jasenID=4&elokuvaID=5&vuokrausPVM=2017-02-28&palautusPVM=2017-02-29&maksettu=sdf HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 15:00:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 15:00:41] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 15:01:41] "GET /muokkaa?jasenID=2&elokuvaID=1&vuokrausPVM=2013-05-13&palautusPVM=2013-05-14&maksettu=666 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 15:01:41] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 15:02:11] "POST /muokkaa?jasenID=2&elokuvaID=1&vuokrausPVM=2013-05-13&palautusPVM=2013-05-14&maksettu=666 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 15:02:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 15:02:11] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 15:03:25] "GET /muokkaa?jasenID=9&elokuvaID=14&vuokrausPVM=2017-02-28&palautusPVM=2017-02-29&maksettu=6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 15:03:25] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 15:03:37] "POST /muokkaa?jasenID=9&elokuvaID=14&vuokrausPVM=2017-02-28&palautusPVM=2017-02-29&maksettu=6 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 15:03:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 15:03:37] "GET /static/css/main.css HTTP/1.1" 304 -
