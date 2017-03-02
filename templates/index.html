@@ -5,7 +5,7 @@
 <!-- Tähän tulee listaus vuokrauksista -->
 <ul>
 	{% for p in vuokraukset %}
-        <li>Elokuva: {{ p['eNimi'] }} / Asiakas: {{ p['jNimi'] }} / Vuokrattu: {{ p['vuokrausPVM'] }} / Palautus: {{ p['palautusPVM'] }} / Maksettu: {{ p['maksettu'] }} €</li>
+        <li><a href="{{ url_for('muokkaa') }}?jasenID={{ p['jasenID'] }}&elokuvaID={{ p['elokuvaID'] }}&vuokrausPVM={{ p['vuokrausPVM'] }}&palautusPVM={{ p['palautusPVM'] }}&maksettu={{ p['maksettu'] }}">Elokuva: {{ p['eNimi'] }} / Asiakas: {{ p['jNimi'] }} / Vuokrattu: {{ p['vuokrausPVM'] }} / Palautus: {{ p['palautusPVM'] }} / Maksettu: {{ p['maksettu'] }} €</a></li>
 	{% endfor %}
 </ul>
 

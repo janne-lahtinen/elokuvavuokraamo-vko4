@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h2>Muokkaa vuokrausta</h2>
+<!-- Tähän tulee lomake muokkaamista varten -->
+<form action="" method="post">
+<p>
+<label for="vNimi">Vuokraajan nimi</label>
+<select id="vNimi" name="vNimi">
+	{% for p in vuokraajat %}
+		{% if p['jasenID'] == INjasenID %}
+			<option value="{{ p['jasenID'] }}" selected="selected">
+				{{ p['nimi'] }} / ID: {{ p['jasenID'] }}
+			</option>
+		{% else %}
+			<option value="{{ p['jasenID'] }}">
+				{{ p['nimi'] }} / ID: {{ p['jasenID'] }}
+			</option>
+		{% endif %}
+	{% endfor %}
+</select>
+</p>
+<p>
+<label for="eNimi">Elokuvan nimi</label>
+<select id="eNimi" name="eNimi">
+	{% for e in elokuvat %}
+		{% if e['elokuvaID'] == INelokuvaID %}
+			<option value="{{ e['elokuvaID'] }}" selected="selected">
+				{{ e['nimi'] }} / ID: {{ e['elokuvaID'] }}
+			</option>
+		{% else %}
+			<option value="{{ e['elokuvaID'] }}">
+				{{ e['nimi'] }} / ID: {{ e['elokuvaID'] }}
+			</option>
+		{% endif %}
+	{% endfor %}
+</select>
+</p>
+<p>
+<label>Vuokrauspäivä (yyyy-mm-dd) <input type="text" name="vuokrausPVM" value="{{ vuokrausPVM }}"></label>
+</p>
+<p>
+<label>Palautuspäivä (yyyy-mm-dd) <input type="text" name="palautusPVM" value="{{ palautusPVM }}"></label>
+</p>
+<p>
+<label>Maksettu <input type="text" name="maksettu" value="{{ maksettu }}"></label>
+</p>
+<p>
+<input type="submit" name="vuokraa" value="Vuokraa" /> <a href="{{ url_for('index') }}" class="button">Peruuta</a>
+</form>
+</p>
+{% endblock %}
