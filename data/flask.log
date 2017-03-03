@@ -2237,3 +2237,174 @@ INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 20:40:40] "GET /elokuvat HTTP/1.1" 200 
 INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 20:40:40] "GET /static/css/main.css HTTP/1.1" 304 -
 INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 20:41:33] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [02/Mar/2017 20:41:33] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:26:42] "GET /elokuvat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:26:42] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:28:52] "GET /elokuvat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:28:52] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:29:35] "GET /elokuvat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:29:35] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:42:05] "GET /elokuvat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:42:05] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:42:08] "GET /elokuvat?nimi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:42:09] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:46:02] "GET /elokuvat?nimi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:46:02] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:46:04] "GET /elokuvat?nimi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:46:05] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:47:16] "GET /elokuvat?nimi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:47:16] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:47:17] "GET /elokuvat?nimi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:47:17] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:48:41] "GET /elokuvat?nimi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:48:42] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:48:44] "GET /elokuvat?nimi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:48:44] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:50:54] "GET /elokuvat?nimi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:50:54] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:50:56] "GET /elokuvat?nimi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:50:57] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:51:01] "GET /elokuvat?nimi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:51:02] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:53:59] "GET /elokuvat?nimi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:53:59] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:54:07] "GET /elokuvat?nimi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:54:07] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:54:09] "GET /elokuvat?nimi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 07:54:10] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:22:16] "GET /elokuvat?nimi HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:22:16] "GET /elokuvat?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:22:16] "GET /elokuvat?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:22:16] "GET /elokuvat?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:22:16] "GET /elokuvat?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:22:16] "GET /elokuvat?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:33:12] "GET /elokuvat?nimi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:33:12] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:33:18] "GET /elokuvat?vuosi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:33:18] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:33:21] "GET /elokuvat?hinta HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:33:21] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:33:25] "GET /elokuvat?arvio HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:33:26] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Järjestäminen ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:no such column: E.Lajityyppi
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:33:30] "GET /elokuvat?genre HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:33:31] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+DEBUG:root:Järjestäminen ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:no such column: L.Lajityyppi
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:34:49] "GET /elokuvat?genre HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:34:50] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Järjestäminen ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:no such column: L.Lajityyppi
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:34:52] "GET /elokuvat?genre HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:34:52] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:34:57] "GET /elokuvat?arvio HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:34:57] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:root:Järjestäminen ei onnistu!
+DEBUG:root:<class 'sqlite3.OperationalError'>
+DEBUG:root:no such column: L.Lajityyppi
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:35:00] "GET /elokuvat?genre HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:35:00] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 325-397-015
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:35:34] "GET /elokuvat?genre HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:35:34] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:35:42] "GET /elokuvat?arvio HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:35:42] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:35:45] "GET /elokuvat?arvio HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:35:45] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:36:13] "GET /elokuvat?nimi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:36:13] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:36:16] "GET /elokuvat?vuosi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:36:17] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:36:18] "GET /elokuvat?hinta HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:36:18] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:36:20] "GET /elokuvat?arvio HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:36:20] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:36:21] "GET /elokuvat?genre HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:36:21] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:36:23] "GET /elokuvat?nimi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2017 08:36:24] "GET /static/css/main.css HTTP/1.1" 304 -

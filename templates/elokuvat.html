@@ -5,11 +5,11 @@
 {# Tähän tulee taulukko elokuvista #}
 <table id="elokuvataulukko">
 	<tr class="headerrow">
-		<td>Elokuvan nimi</td>
-		<td>Julkaisuvuosi</td>
-		<td>Vuokrahinta</td>
-		<td>Arvio</td>
-		<td>Lajityyppi</td>
+		<td><a href="{{ url_for('elokuvat') }}?nimi">Elokuvan nimi</a></td>
+		<td><a href="{{ url_for('elokuvat') }}?vuosi">Julkaisuvuosi</a></td>
+		<td><a href="{{ url_for('elokuvat') }}?hinta">Vuokrahinta</a></td>
+		<td><a href="{{ url_for('elokuvat') }}?arvio">Arvio</a></td>
+		<td><a href="{{ url_for('elokuvat') }}?genre">Lajityyppi</a></td>
 	</tr>
 {% for e in elokuvat %}
 	<tr class="bodyrow">

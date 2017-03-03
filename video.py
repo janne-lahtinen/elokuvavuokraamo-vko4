@@ -326,17 +326,92 @@ def elokuvat():
 
 	cur = con.cursor()
 
-	# Kysely elokuvista tietokannassa
-	try:
-		cur.execute("""
+	# order = request.form.get()
+
+	# Järjestäminen vuoden mukaan
+	if 'vuosi' in request.args:
+		update_sql = """
 		SELECT E.Nimi, E.Julkaisuvuosi, E.Vuokrahinta, E.Arvio, L.Tyypinnimi
 		FROM Elokuva AS E, Lajityyppi AS L
 		WHERE E.LajityyppiID = L.LajityyppiID
-		""")
-	except: 
-	   # Virheilmoitus lokiin, jos kysely ei onnistu
-	   logging.debug( sys.exc_info()[0] )
-	   logging.debug( sys.exc_info()[1] )
+		ORDER BY E.Julkaisuvuosi
+		"""
+
+		try:
+			cur.execute(update_sql)
+			#con.commit() # tehdään commit vaikka osa lisäyksistä epäonnistuisikin
+		except:
+			logging.debug( "Järjestäminen ei onnistu!" )
+			logging.debug( sys.exc_info()[0] )
+			logging.debug( sys.exc_info()[1] )
+
+	# Järjestäminen hinnan mukaan
+	elif 'hinta' in request.args:
+		update_sql = """
+		SELECT E.Nimi, E.Julkaisuvuosi, E.Vuokrahinta, E.Arvio, L.Tyypinnimi
+		FROM Elokuva AS E, Lajityyppi AS L
+		WHERE E.LajityyppiID = L.LajityyppiID
+		ORDER BY E.Vuokrahinta
+		"""
+
+		try:
+			cur.execute(update_sql)
+			#con.commit() # tehdään commit vaikka osa lisäyksistä epäonnistuisikin
+		except:
+			logging.debug( "Järjestäminen ei onnistu!" )
+			logging.debug( sys.exc_info()[0] )
+			logging.debug( sys.exc_info()[1] )
+
+	# Järjestäminen arvion mukaan
+	elif 'arvio' in request.args:
+		update_sql = """
+		SELECT E.Nimi, E.Julkaisuvuosi, E.Vuokrahinta, E.Arvio, L.Tyypinnimi
+		FROM Elokuva AS E, Lajityyppi AS L
+		WHERE E.LajityyppiID = L.LajityyppiID
+		ORDER BY E.Arvio
+		"""
+
+		try:
+			cur.execute(update_sql)
+			#con.commit() # tehdään commit vaikka osa lisäyksistä epäonnistuisikin
+		except:
+			logging.debug( "Järjestäminen ei onnistu!" )
+			logging.debug( sys.exc_info()[0] )
+			logging.debug( sys.exc_info()[1] )
+
+	# Järjestäminen lajityypin mukaan
+	elif 'genre' in request.args:
+		update_sql = """
+		SELECT E.Nimi, E.Julkaisuvuosi, E.Vuokrahinta, E.Arvio, L.Tyypinnimi
+		FROM Elokuva AS E, Lajityyppi AS L
+		WHERE E.LajityyppiID = L.LajityyppiID
+		ORDER BY L.Tyypinnimi
+		"""
+
+		try:
+			cur.execute(update_sql)
+			#con.commit() # tehdään commit vaikka osa lisäyksistä epäonnistuisikin
+		except:
+			logging.debug( "Järjestäminen ei onnistu!" )
+			logging.debug( sys.exc_info()[0] )
+			logging.debug( sys.exc_info()[1] )
+
+	# Järjestäminen nimen mukaan
+	else:
+		update_sql = """
+		SELECT E.Nimi, E.Julkaisuvuosi, E.Vuokrahinta, E.Arvio, L.Tyypinnimi
+		FROM Elokuva AS E, Lajityyppi AS L
+		WHERE E.LajityyppiID = L.LajityyppiID
+		ORDER BY E.Nimi
+		"""
+
+		try:
+			cur.execute(update_sql)
+			#con.commit() # tehdään commit vaikka osa lisäyksistä epäonnistuisikin
+		except:
+			logging.debug( "Järjestäminen ei onnistu!" )
+			logging.debug( sys.exc_info()[0] )
+			logging.debug( sys.exc_info()[1] )
 
 	# Muodostetaan lista kyselystä saadulla datalla
 	elokuvat = []
