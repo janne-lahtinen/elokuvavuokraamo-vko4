@@ -16,8 +16,13 @@ body {
 	margin-left: 4em;
 }
 
-ul {
+ul.paataso {
 	list-style-type: none;
+}
+
+ul.alataso {
+	list-style-type: disc;
+	margin-left: 2em;
 }
 
 a {
@@ -94,7 +99,7 @@ p {
 	margin-top: 1.5em;
 }
 
-input[type=text] {
+input[type=text], input[type=password] {
 	background-color: #e6e6e6;
 	padding: 5px 10px;
 	margin-left: 10px;

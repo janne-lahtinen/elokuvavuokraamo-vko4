@@ -2,9 +2,8 @@
 
 {% block content %}
 <h2>Uusi vuokraus</h2>
-<!-- Paikka virheilmoitukselle -->
-<span>{{ herja }}</span>
-<!-- Tähän tulee lomake vuokraamista varten -->
+{# Virheilmoitusten paikka korjattavan arvon vieressä #}
+{# Tähän tulee lomake vuokraamista varten #}
 <form action="" method="post">
 <p>
 <label for="vNimi">Vuokraajan nimi</label>
@@ -14,7 +13,7 @@
 		{{ p['nimi'] }} / ID: {{ p['jasenID'] }}
 		</option>
 	{% endfor %}
-</select>
+</select> <span>{{ herja4 }}</span>
 </p>
 <p>
 <label for="eNimi">Elokuvan nimi</label>
@@ -27,13 +26,13 @@
 </select>
 </p>
 <p>
-<label>Vuokrauspäivä (yyyy-mm-dd) <input type="text" name="vuokrausPVM"></label>
+<label>Vuokrauspäivä (vvvv-kk-pp) <input type="text" name="vuokrausPVM"></label> <span>{{ herja }}</span>
 </p>
 <p>
-<label>Palautuspäivä (yyyy-mm-dd) <input type="text" name="palautusPVM"></label>
+<label>Palautuspäivä (vvvv-kk-pp) <input type="text" name="palautusPVM"></label> <span>{{ herja2 }}</span>
 </p>
 <p>
-<label>Maksettu <input type="text" name="maksettu"></label>
+<label>Maksettu <input type="text" name="maksettu"></label> <span>{{ herja3 }}</span>
 </p>
 <p>
 <input type="submit" name="vuokraa" value="Vuokraa" /> <a href="{{ url_for('index') }}" class="button">Peruuta</a>
