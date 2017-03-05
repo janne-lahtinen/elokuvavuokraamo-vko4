@@ -238,6 +238,9 @@ def muokkaa():
 
 		# Virheilmoituksen alustaminen
 		herja = ""
+		herja2 = ""
+		herja3 = ""
+		herja4 = ""
 
 		# Linkin mukana tuotu muuttuja, oletusarvo tyhjä string
 		INjasenID = int(request.values.get('jasenID', ''))
@@ -273,19 +276,19 @@ def muokkaa():
 			try:
 				 datetime.datetime.strptime(vuokraus, '%Y-%m-%d')
 			except ValueError:
-				herja = u"Vuokrauspäivä syötetty väärässä muodossa, pitäisi olla, vuosi-kuukausi-päivä eli vvvv-kk-pp"
-				return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
+				herja = u"Vuokrauspäivä syötetty väärässä muodossa!"
+				return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, herja2=herja2, herja3=herja3, herja4=herja4, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
 			try:
 				 datetime.datetime.strptime(palautus, '%Y-%m-%d')
 			except ValueError:
-				herja = u"Palautuspäivä syötetty väärässä muodossa, pitäisi olla, vuosi-kuukausi-päivä eli vvvv-kk-pp"
-				return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
+				herja2 = u"Palautuspäivä syötetty väärässä muodossa!"
+				return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, herja2=herja2, herja3=herja3, herja4=herja4, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
 
 			# Syötettyjen päivämäärien tarkistus, palautus pitää olla suurempi
 			try:
 				if palautus <= vuokraus:
 					herja = u"Palautuspäivämäärän pitää olla vuokrauspäivää myöhemmin!"
-					return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
+					return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, herja2=herja2, herja3=herja3, herja4=herja4, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
 			except:
 				logging.debug( "Palautuspäivän tarkistus ei onnistunut!" )
 				logging.debug( sys.exc_info()[0] )
@@ -295,14 +298,14 @@ def muokkaa():
 			try:
 				maksettuINT = int(maksettu)
 				if maksettuINT <= 0:
-					herja = u"Syötit liian pieniä arvoja, yritä uudestaan."
-					return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
+					herja3 = u"Syötit liian pieniä arvoja, yritä uudestaan."
+					return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, herja2=herja2, herja3=herja3, herja4=herja4, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
 			except:
-				herja = u"Syötit vääriä arvoja, yritä uudestaan."
+				herja3 = u"Syötit vääriä arvoja, yritä uudestaan."
 				logging.debug( "Maksetun summan tarkistus ei onnistu!" )
 				logging.debug( sys.exc_info()[0] )
 				logging.debug( sys.exc_info()[1] )
-				return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
+				return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, herja2=herja2, herja3=herja3, herja4=herja4, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
 
 			# Yritetään päivittää kenttien tietoja		
 			try:
@@ -310,12 +313,12 @@ def muokkaa():
 				con.commit() # tehdään commit vaikka osa lisäyksistä epäonnistuisikin
 				return redirect(url_for('index'))
 			except:
-				herja = "Muokkaus ei onnistu!"
+				herja4 = "Muokkaus ei onnistu!"
 				logging.debug( "Muokkaus ei onnistu!" )
 				logging.debug( sys.exc_info()[0] )
 				logging.debug( sys.exc_info()[1] )
 
-			return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
+			return render_template("muokkaa.html", vuokraajat=vuokraajat, elokuvat=elokuvat, herja=herja, herja2=herja2, herja3=herja3, herja4=herja4, INjasenID=INjasenID, INelokuvaID=INelokuvaID, INvuokrausPVM=INvuokrausPVM, INpalautusPVM=INpalautusPVM, INmaksettu=INmaksettu)
 
 		# Lomakkeen käsittely, jos on valittu poista-painike -----------------------------------------------
 		if request.form.get("poista", None):
@@ -476,6 +479,12 @@ def elokuvat():
 @app.route('/login', methods=['GET', 'POST'])
 def login():
 	if request.method == 'POST':
+		# Testataan käyttäjätunnus, pitää olla tiea218@foobar.example
+		herja = ""
+		testi = request.form['username']
+		if testi != "tiea218@foobar.example":
+			herja = "Väärä käyttäjätunnus!"
+			return render_template('login.html', herja=herja)
 		# Kirjaudutaan sisään. Sijoitetaan session-muuttujaan käyttäjätunnus
 		session['username'] = request.form['username']
 		return redirect(url_for('index'))
