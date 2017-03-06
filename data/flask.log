@@ -4367,3 +4367,233 @@ INFO:werkzeug:127.0.0.1 - - [05/Mar/2017 22:10:34] "GET /logout HTTP/1.1" 302 -
 INFO:werkzeug:127.0.0.1 - - [05/Mar/2017 22:10:35] "GET / HTTP/1.1" 302 -
 INFO:werkzeug:127.0.0.1 - - [05/Mar/2017 22:10:35] "GET /login HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [05/Mar/2017 22:10:35] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 120-208-587
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:43:05] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:43:05] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:43:05] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:43:18] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:43:18] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 120-208-587
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 120-208-587
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:51:41] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:51:41] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:51:41] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:51:49] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:51:50] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:52:11] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:52:11] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:52:18] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:52:18] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:52:22] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:52:22] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:52:23] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:52:23] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:52:31] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:52:31] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:57:47] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 14:57:48] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 120-208-587
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:03:09] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:03:09] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:03:09] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:03:11] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:03:11] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:03:24] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:03:24] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 120-208-587
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 120-208-587
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:07:50] "POST /login HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:07:50] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:07:50] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:07:50] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:07:50] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:07:50] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:07:51] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 120-208-587
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:08:31] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:08:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:08:32] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:08:34] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:08:34] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:08:34] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:08:35] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:08:43] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:08:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:08:43] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:08:45] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:08:45] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:08:46] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:08:46] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:08:51] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:08:51] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 120-208-587
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 120-208-587
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 120-208-587
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:15:40] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:15:41] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:15:41] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:15:41] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:15:44] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:15:44] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:15:55] "POST /login HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:15:55] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:15:55] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:15:55] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:15:55] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:15:56] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:15:56] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 120-208-587
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:16:38] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:16:39] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:16:47] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:16:47] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 120-208-587
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:17:30] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:17:30] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:17:34] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:17:34] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:17:35] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:17:43] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:17:44] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 120-208-587
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:19:00] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:19:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:19:00] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:19:02] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:19:02] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:19:02] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:19:02] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:19:09] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:19:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:19:09] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:19:12] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:19:12] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:19:12] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:19:12] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:20:07] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:20:08] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:20:08] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:20:09] "GET /elokuvat HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:20:10] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:20:10] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:29:19] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:29:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:29:19] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:29:23] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:29:24] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:29:24] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:29:24] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 120-208-587
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:33:14] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:33:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:33:14] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:33:17] "GET /elokuvat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:33:17] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:33:20] "GET /elokuvat?order=genre HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:33:20] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:33:21] "GET /elokuvat?order=arvio HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:33:21] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:33:22] "GET /elokuvat?order=hinta HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:33:22] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:33:24] "GET /elokuvat?order=vuosi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:33:24] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:33:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:33:27] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:33:30] "GET /elokuvat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:33:30] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 120-208-587
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 120-208-587
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 120-208-587
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 120-208-587
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:48:42] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:48:42] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:48:42] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:48:42] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:48:50] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:48:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:48:50] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:48:52] "GET /muokkaa?jasenID=8&elokuvaID=10&vuokrausPVM=2017-03-01&palautusPVM=2017-03-02&maksettu=53 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:48:52] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:48:59] "POST /muokkaa?jasenID=8&elokuvaID=10&vuokrausPVM=2017-03-01&palautusPVM=2017-03-02&maksettu=53 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:48:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:48:59] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:03] "GET /vuokraus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:04] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:23] "POST /vuokraus HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:23] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:26] "GET /elokuvat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:26] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:27] "GET /elokuvat?order=genre HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:28] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:28] "GET /elokuvat?order=arvio HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:29] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:29] "GET /elokuvat?order=hinta HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:29] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:30] "GET /elokuvat?order=vuosi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:30] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:32] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:33] "GET /elokuvat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:34] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:36] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:36] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:37] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:37] "GET /static/css/main.css HTTP/1.1" 304 -
