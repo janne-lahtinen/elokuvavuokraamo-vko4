@@ -4597,3 +4597,4 @@ INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:36] "GET /logout HTTP/1.1" 302 -
 INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:36] "GET / HTTP/1.1" 302 -
 INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:37] "GET /login HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [06/Mar/2017 15:49:37] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in 'C:\\cygwin64\\home\\janne\\vko4site\\video.py', reloading
